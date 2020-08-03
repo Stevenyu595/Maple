@@ -1,0 +1,106 @@
+*, *:after, *:before {
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
+  }
+
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  nav a:link, nav a:visited, nav button {
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+    line-height: 46px;
+    text-align: center;
+    color: #801336;
+    text-decoration: none;
+    background-color: #fffacd;
+    width: 100%;
+  }
+  
+  nav a:hover, nav button:hover { 
+    color: #fffacd;
+    background-color: #801336;
+  }
+
+  html {
+    height: 100%;
+  }
+
+  body
+  {
+      height: 100%;
+      background: #fffacd;
+  }
+  .content
+  {
+      min-height: 100%;
+  }
+  
+  .container {
+    margin: 2.5rem auto;
+    border: 1px solid #ddd;
+    padding: .3em .6em;
+    box-shadow: 8px 8px 24px #336078, -8px -8px 24px #336078;
+  }
+  
+  .group-header {
+    float: right;
+    font-weight: 700;
+    width: 20%;
+    margin: .7em 0 1em 0;
+  }
+  
+  h3 {
+    position: relative;
+    font-weight: 700;
+    margin: .7em 0 1em 0;
+  }
+
+  aside {
+    float: right;
+    text-align: center;
+    padding: 8px;
+  }
+  
+  img {
+    padding: 8px;
+    margin: .7em;
+  }
+
+  footer {
+    position: relative;
+    clear: both;
+  }
+  
+  footer p {
+    font-size: 1.2em;
+  }
+
+  [class*="col-"] {
+    float: left;
+    padding: 15px;
+  }
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  /*Grid System*/	
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
